@@ -1,0 +1,16 @@
+.chat_body {
+    max-height: 100%;
+    height: calc(85vh - 184px);
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.chat_body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+.chat_body::-webkit-scrollbar-thumb {
+    background-color: #14BEF0;
+    outline: 1px solid #14BEF0;
+    border-radius: 15px;
+}

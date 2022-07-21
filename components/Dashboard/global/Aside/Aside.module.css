@@ -1,0 +1,23 @@
+.sidebar_main {
+    height: 100vh;
+    position: fixed !important;
+    z-index: 1031;
+    top: 0px;
+}
+
+.sidebar_header {
+    padding: 24px;
+}
+
+.sidebar_item {
+    color: #fff !important;
+}
+
+.badge_red {
+    padding: 3px 6px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #d63030;
+}

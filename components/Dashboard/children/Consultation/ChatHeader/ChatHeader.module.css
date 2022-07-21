@@ -1,0 +1,24 @@
+.chat_header_main {
+    padding: 10px 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 90;
+}
+
+.header_icon {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #999999;
+    box-shadow: none !important;
+}
+
+.header_icon:hover {
+    background-color: #14bef0;
+}
+
+.header_icon:focus {
+    background-color: #14bef0;
+    border: none;
+}

@@ -1,0 +1,103 @@
+.chatbox {
+    border-radius: 20px;
+    padding-right: 80px;
+    padding-left: 40px;
+    height: 40px;
+    background-color: #F5F7FB;
+}
+
+.icon_holder {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.send_btn {
+    background-color: #14BEF0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    color: white;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.attachmentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px 10px 10px;
+    border-radius: 4px;
+    border: 1px solid #14BEF0;
+    margin-bottom: 10px;
+}
+
+.attachmentClose {
+    display: flex;
+    height: 22px;
+    width: 22px;
+    border-radius: 9999px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    box-shadow: 0 1px 2px 0 rgb(88 88 88 / 75%);
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.attachmentMedia {
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #000;
+    object-fit: cover;
+}
+
+.attachmentDocument {
+    height: 90px;
+    width: 90px;
+    margin-top: 15px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.audio_record {
+    border-radius: 8px;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: #F5F6F6;
+    bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio_record::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #F5F6F6;
+    bottom: -16px;
+    left: 10px;
+}
+
+.audioPlayer {
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.audioWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

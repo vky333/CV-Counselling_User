@@ -1,0 +1,30 @@
+.cv_logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    box-shadow: 0px 7px 9px #0000004D;
+    background: #FFF;
+    padding: 10px 10px 0px;
+    border-radius: 3px;
+    z-index: 999;
+}
+
+.video_room {
+    height: calc(100vh - 65px);
+}
+
+.video_flex {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.side_user_video {
+    flex-direction: column;
+    width: 32%;
+    height: calc(100vh - 65px);
+    justify-content: center;
+}

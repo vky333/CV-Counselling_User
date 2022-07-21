@@ -1,0 +1,49 @@
+.main_wrapper {
+    border-bottom: 3px solid #f0f0f5;
+    background-color: white;
+}
+
+.com {
+    right: -4px;
+    bottom: 5px;
+    background-color: #0074d7;
+    color: #fff;
+    width: 25px;
+    font-size: 8px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-18deg);
+    left: 210px;
+    top: 41px;
+}
+
+.round_solid_bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e6f7fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toll_free_number {
+    font-size: 18px;
+    font-weight: 500;
+    color: #14bef1;
+    text-decoration: none;
+}
+
+.toll_free_number:hover {
+    color: #14bef1;
+}
+
+.toll_free_timings {
+    font-size: 12px;
+    color: #9BA1AC;
+    margin-top: -5px;
+}

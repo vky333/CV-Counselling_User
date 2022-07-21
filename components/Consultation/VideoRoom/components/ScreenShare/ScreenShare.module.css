@@ -1,0 +1,9 @@
+.screen_share_video {
+    height: 100%;
+    width: 68%;
+    margin: 0px 15px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

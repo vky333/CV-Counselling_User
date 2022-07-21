@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #333;
+}
+
+.image_wrapper {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.counsellor_name {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.call_status {
+    color: #fff;
+}
+
+.end_Call {
+    font-size: 25px;
+    color: #fff;
+    background-color: red;
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.unavailable {
+    background-color: #14bef0;
+    padding: 0.5rem;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}

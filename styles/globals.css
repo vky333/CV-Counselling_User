@@ -1,0 +1,409 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #FAFAFA !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cv-btn-primary {
+    color: white !important;
+    border-color: #14bef1 !important;
+    box-shadow: none !important;
+    background-color: #14bef1 !important;
+}
+
+.cv-btn-primary-outline {
+    color: #14bef1 !important;
+    border-color: #14bef1 !important;
+    box-shadow: none !important;
+}
+
+.cv-btn-primary-outline:hover {
+    color: white !important;
+    background-color: #14bef1 !important;
+    border-color: #14bef1 !important;
+}
+
+.cv-btn-primary-outline:focus {
+    color: white !important;
+    background-color: #14bef1 !important;
+    border-color: #14bef1 !important;
+}
+
+.auth-carousel.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    opacity: 1;
+    border: 1px solid #14bef1;
+    background: transparent;
+}
+
+.auth-carousel.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #14bef1;
+}
+
+.form-control {
+    font-size: 14px !important;
+    color: #555 !important;
+    box-shadow: none !important;
+    height: 38px !important;
+}
+
+.form-label {
+    color: #787887 !important;
+    font-size: 14px !important;
+}
+
+.form-floating {
+    font-size: 14px !important;
+}
+
+.transparent-bg.input-group-text {
+    background-color: transparent !important;
+}
+
+.input-group .form-floating input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.invalid-feedback {
+    font-size: 13px !important;
+    display: block !important;
+}
+
+.form-check-input {
+    font-size: 15px !important;
+    margin-top: 6px !important;
+    box-shadow: none !important;
+}
+
+.form-check-label {
+    color: #7f7f7f !important;
+    font-size: 12px !important;
+}
+
+.form-check-input:checked {
+    background-color: #14bef0 !important;
+    border-color: #14bef0 !important;
+    box-shadow: none !important;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.pro-sidebar>.pro-sidebar-inner {
+    background: #28328c !important;
+}
+
+.pro-sidebar .pro-menu.shaped .pro-menu-item>.pro-inner-item>.pro-icon-wrapper {
+    background-color: transparent !important;
+}
+
+.pro-sidebar {
+    color: #fff !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item:hover {
+    color: #fff !important;
+    background-color: #3d48ac !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.last-dropdown .dropdown-menu {
+    right: 0;
+    width: 250px !important;
+    left: auto !important;
+}
+
+.pro-menu-item.active {
+    color: #fff !important;
+    background-color: #3d48ac !important;
+}
+
+.busy-call-modal {
+    margin: 15px 15px 0 auto !important;
+}
+
+
+/****** Setting Page Start *******/
+
+.settingPage {
+    background-color: #FFFF;
+    padding: 1rem 0;
+    font-size: 14px;
+}
+
+.settingHeader {
+    width: 100%;
+    padding: 0 1.5rem 0.5rem 1.5rem;
+    border-bottom: 1px solid #f0f0f5;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.settingPage .detailContainer {
+    max-width: 1180px;
+}
+
+.settingPage .saveBtn {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.settingPage .list-group {
+    flex-direction: row;
+}
+
+.settingPage .list-group-flush>.list-group-item {
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center;
+    font-size: 14px;
+}
+
+.settingPage .list-group-flush>.list-group-item:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.settingPage .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.settingPage label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.settingPage .ui-w-80 {
+    width: 80px !important;
+    height: auto;
+    border-radius: 100px;
+}
+
+.settingPage .account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.settingPage .customCardBody {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    border-bottom: #ddd 1px solid;
+    padding: 2rem 1rem 1.5rem 1rem;
+    margin: 0 auto;
+}
+
+.settingPage .media-body {
+    font-weight: 700;
+    color: rgb(20, 190, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: left;
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.settingPage .media-body label {
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.settingPage .uploadImg {
+    display: flex;
+}
+
+.settingPage .editBox {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.settingPage .pickBox {
+    width: 65%;
+    color: rgb(180, 180, 190);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.settingPage .aboutBox {
+    width: 100%;
+}
+
+.settingPage .acntText {
+    font-size: 14px;
+}
+
+.settingPage .profileContner {
+    display: flex;
+    align-items: center;
+}
+
+.settingPage .leftBox {
+    padding: 0 0 1rem 2rem;
+}
+
+.settingPage .borderTop {
+    border-top: #ddd 1px solid;
+    max-width: 99%;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+}
+
+.settingPage .weekDayContainer ul {
+    list-style: none;
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.settingPage .weekdayInput {
+    visibility: hidden;
+}
+
+.settingPage .weekDayContainer ul li {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.settingPage .checkBoxLable {
+    background-color: #fff;
+    border: 1px solid #b4b4be;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weekdayInput:checked+.checkBoxLable {
+    background-color: #ffa000;
+    border-color: #ffa000;
+    color: #fff;
+}
+
+.session01 {
+    width: 43%;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #b4b4be;
+}
+
+.settingPage .sessionContainer .form-group {
+    margin-bottom: 0rem;
+    width: 50%;
+    position: relative;
+}
+
+.settingPage .weekDayContainer {
+    margin-bottom: 2rem;
+    height: 100%;
+}
+
+.settingPage .sessionContainer .frmGroup02:after,
+.settingPage .sessionContainer .frmGroup02:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-color: transparent transparent transparent #b4b4be;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.settingPage .sessionContainer .frmGroup02:after {
+    top: 1px;
+    border-color: transparent transparent transparent #fff;
+    border-width: 19px;
+}
+
+.settingPage .sessionContainer .form-control {
+    border: 0px solid #ced4da;
+    font-size: 13px !important;
+}
+
+.settingPage .sessionContainer .frmGroup02 {
+    padding-left: 2rem;
+}
+
+.settingPage .sessionContainer h6 {
+    color: #787887;
+    margin-bottom: 0.78rem;
+    font-size: 14px;
+}
+
+.settingPage .sessionContainer .custom-select {
+    position: relative;
+}
+
+.settingPage .sessionContainer .custom-select::after {
+    content: "";
+    background-image: url("/images/btmAro.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 50px;
+}
+
+.settingPage .addTimeContianer {
+    color: #14bef0;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    margin-top: 4rem;
+    width: 43%;
+    margin-bottom: 5rem;
+}
+
+@media(max-width:768px) {
+    .tab-pane.tbBox .col-md-4 {
+        padding: 0;
+    }
+}
+
+
+/****** Setting Page End *******/

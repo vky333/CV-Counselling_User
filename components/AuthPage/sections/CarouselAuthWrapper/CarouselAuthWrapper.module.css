@@ -1,0 +1,64 @@
+.main_wrapper {
+    margin-top: 76px;
+    padding: 64px 16px;
+}
+
+.landing_text {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #344055;
+}
+
+.landing_text_caption {
+    font-size: 14px;
+    color: #707070;
+    margin-top: 6px;
+}
+
+.swiper_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper_container::after {
+    content: "";
+    background: #7EB1FC;
+    position: absolute;
+    width: 90%;
+    height: 270px;
+    top: 40px;
+    left: -10px;
+    border-radius: 0.45rem;
+}
+
+.main_bg {
+    height: calc(100vh - 150px);
+    background-image: url("/images/form-bg.svg");
+    background-image: url("/images/form-bg.svg"), linear-gradient(180deg,rgba(250, 250, 250, 1) 0%, rgba(250, 250, 250, 1) 50%, rgba(230, 247, 252, 1) 100%);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.authForm {
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 15px #aaaaaa29;
+}
+
+.formHeader {
+    font-size: 24px;
+    color: #344055;
+    font-weight: bold;
+}
+
+.formHeaderCaption {
+    font-size: 13px;
+    font-weight: normal;
+    color: #B2B2B9;
+    display: block;
+    margin-top: 10px;
+    line-height: 18px;
+}

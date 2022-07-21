@@ -1,0 +1,55 @@
+.userName {
+    font-size: 14px;
+}
+
+.userMsg {
+    font-size: 12px;
+    color: #787887;
+    font-weight: 400;
+}
+
+.chat_list_item {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+
+.chat_list_item:hover {
+    background-color: #F0F0F5;
+}
+
+.chat_list_item.active_chat {
+    background-color: #F0F0F5;
+}
+
+.unread_chat {
+    position: relative;
+}
+
+.unread_chat::after {
+    content: "!";
+    position: absolute;
+    right: 16px;
+    bottom: 2px;
+    color: white;
+    line-height: 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #14bef0;
+}
+
+.unread_chat_msg {
+    font-weight: bold;
+}
+
+.msgTime {
+    font-size: 12px;
+}
+
+.msgTime.msgTime_unread {
+    color: #14bef0;
+    font-weight: bold;
+}
